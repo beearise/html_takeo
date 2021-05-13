@@ -1,27 +1,83 @@
 <!DOCTYPE html>
 <html>
-
     <head>
-        <title> HTML Cheat Sheet</title>
+        <title>The Best Website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
     </head>
     <body>
-        <!-- comment tag -->
-        <h1>Heading One</h1>
-        <h2>Heading Two</h2>
-        <h3>Heading Three</h3>
-        <h4>Heading Four</h4>
-        <h5>Heading Five</h5>
-        <h6>Heading Six</h6>
+        <header id="main-header">
+            <div class="container">
+                <h1>Home</h1>
+            </div>
+        </header>
 
+        <nav id="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="forms.html">Forms</a></li>
+                    <li><a href="something.html">Something</a></li>
+                </ul>
+            </div>
 
-        <!-- paragraph -->
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, soluta!
-        </p>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, soluta!
-        </p>
+        </nav>
 
+        <section id="showcase">
+            <div class="container">
+               I have no idea what to put here so this is just me typing in gibberish. Arms are heavy, palms are sweaty, mom's spagetti. That's a song by Eminem. You should listen to it. I haven't.
+            </div>
+        </section>
+
+        <section id="cards">
+            <div class="container">
+                <p>
+                    <img src="images/clone.jpg" alt="clone">
+                    <span class="desc">Some weird things1 Some weird things1</span>
+                    <span class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, soluta.</span>
+                    
+                </p>
+                <p>
+                    <img src="images/clone.jpg" alt="clone">
+                    <span class="desc">Some weird things1 Some weird things1</span>
+                    <span class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, soluta.</span>
+                    
+                </p>
+                <p>
+                    <img src="images/clone.jpg" alt="clone">
+                    <span class="desc">Some weird things1 Some weird things1</span>
+                    <span class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, soluta.</span>
+                    
+                </p>
+                <p>
+                    <img src="images/clone.jpg" alt="clone">
+                    <span class="desc">Some weird things1 Some weird things1</span>
+                    <span class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, soluta.</span>
+                    
+                </p>
+            </div>
+        </section>
+
+        <div class="clear"></div>
+
+        <section class="container">
+            <div class="accordian">
+                <p>Accordian1   <button onclick="showContentA1()">&#8595;</button></p>
+                <div id = "A1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse iusto placeat assumenda cum quos odit, voluptas magnam laudantium ipsa sunt?</div>
+                <p>Accordian2   <button onclick="showContentA2()">&#8595;</button></p>
+                <div id = "A2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse iusto placeat assumenda cum quos odit, voluptas magnam laudantium ipsa sunt?</div>
+                <p>Accordian3   <button onclick="showContentA3()">&#8595;</button></p>
+                <div id = "A3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse iusto placeat assumenda cum quos odit, voluptas magnam laudantium ipsa sunt?</div>
+            </div>
+        </section>
+
+        
+        
     </body>
 
+    <footer id="footer">
+        <p>Copyright &copy; 2021</p>
+    </footer>
+
+    <script src="script.js"></script>
 </html>

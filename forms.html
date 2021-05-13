@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Best Website</title>
+        <link rel="stylesheet" type="text/css" href="form.css">
+        
+    </head>
+    <body>
+        <header id="main-header">
+            <div class="container">
+                <h1>Forms</h1>
+            </div>
+        </header>
+
+        <nav id="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="forms.html">Forms</a></li>
+                    <li><a href="something.html">Something</a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <section id="showcase">
+            <div class="container">
+               I have no idea what to put here so this is just me typing in gibberish. Arms are heavy, palms are sweaty, mom's spagetti. That's a song by Eminem. You should listen to it. I haven't.
+            </div>
+        </section>
+
+
+        <form id="my-form" class="my-form">
+            <div class="form-group">
+                <label> Name: </label>
+                <input type="text" id="name">
+            </div>
+            <div class="form-group">
+                <label> Email: </label>
+                <input type="email" id="email">
+            </div>
+            <div class="form-group">
+                <label> City: </label>
+                <input type="text" id="city">
+            </div>
+            <div class="form-group">
+                <label> ZipCode: </label>
+                <input type="text" id="zipCode">
+            </div>
+            <div class="form-group">
+                <label> PhoneNo: </label>
+                <input type="text" id="phoneNo">
+            </div>
+            <input id ="myBtn" class = "button" type="submit" value = "Submit">
+            <input class = "button" type="submit" value = "Clear">
+        </form>
+
+        <div class="clear"></div>
+
+       
+        <!--For Embedded Google Map-->
+        <aside id="sidebar">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4027.641108286921!2d-95.76910965029396!3d44.454238400268984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x878a58fcded53043%3A0xddfb78ccbe5a3e37!2sBurger%20King!5e0!3m2!1sen!2sus!4v1620795289928!5m2!1sen!2sus" 
+            width="100%" height="350px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            
+        </aside>
+
+        
+
+        <div id="map"></div>
+
+        <!--Popup HTML Start-->
+        
+        <div id="popup" class="myPopup">
+            <div class="popup-content">
+                <span class="close"><strong>&times;</strong></span>
+
+                <ul id="userInfo"> </ul>
+
+            </div>
+        </div>
+
+        <!--Popup HTML END-->
+       
+
+        
+        <footer id="footer">
+            <p>Copyright &copy; 2021</p>
+        </footer>
+        
+
+        <script src="form.js"></script>
+    </body>
+
+    
+
+    
+</html>
